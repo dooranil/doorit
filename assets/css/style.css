@@ -19,7 +19,18 @@
 body {
     font-family: 'Open Sans', sans-serif;
     line-height:28px;
+	 cue-before: url("honey.mp3");
    
+}
+.container-index
+{
+width:100%;
+}
+.index-container
+{
+position:fixed;
+top:200px;
+background-color:yellow;
 }
 .btn-md-width
 {
@@ -31,9 +42,9 @@ width:200px;
     -webkit-border-radius:0px;
 }
 .content-wrapper {
-    margin-top: 40px;
-    min-height:800px;
-    padding-bottom:90px;
+    margin-top: 1px;
+    min-height:100px;
+    padding-bottom:40px;
 }
 .header-line {
     font-weight:900;
@@ -210,11 +221,17 @@ height: 60px;
 .back-widget-set {
     background-color:transparent;
 }
+.quote {
+ display:inline;
+  float:right;
+ margin-bottom:20px;
+}
 .rating {
 
  
   display:inline;
   float:right;
+  padding-top:80px;
 }
 
 /* =============================================================
