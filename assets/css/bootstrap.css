@@ -44,6 +44,7 @@ template {
 }
 a {
   background: transparent;
+ 
 }
 a:active,
 a:hover {
@@ -900,6 +901,7 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
+  
 }
 input,
 button,
@@ -6222,5 +6224,24 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+@media screen {
+	.content
+	{
+	padding-top:2%;
+		padding-bottom:2%;
+	}
+	.content-middle{
+		padding-top:2%;
+		padding-bottom:1%;
+		padding-right:30%;
+		text-align:center;
+	}
+	.index-header{
+	font-size:200%;
+	 font-family: sans-serif;
+	 box-shadow: 10px 10px 5px #888888;
+	}
+
 }
 /*# sourceMappingURL=bootstrap.css.map */

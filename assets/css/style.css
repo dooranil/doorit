@@ -80,14 +80,34 @@ width:200px;
     text-transform:uppercase;
 
 }
+#nav-footer  label
+{
+font-size:xx-large;
+}
+#topservices a
+{
+ text-decoration: none;
+}
+#reviews label
+{
+font-size:medium;
+}
 .phoneicon
 {
 width:20px;
 height:20px;
 }
+.howitworks-section
+{
+ background-color:clear;;
+}
+.howitworks-alignment
+{
+margin-left:5%;
+}
 .menu-section {
-    background-color: #f7f7f7;
-    border-bottom:1px solid #9170E4;
+   background-color: #105191;
+    /*border-bottom:1px solid #9170E4;*/
     width:100%
 }
 .menu-top-active {
@@ -110,6 +130,12 @@ border-color: rgba(155, 153, 153, 0.23);
 .navbar-toggle {
 background-color: black;
 border: 1px solid black;
+}
+.review-section
+{
+height:130px;
+margin-left:2%;
+margin-right:2%;
 }
 
     /* =============================================================
