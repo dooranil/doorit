@@ -269,15 +269,27 @@ height: 60px;
   float:right;
   padding-top:80px;
 }
+.social-media
+{
+font-size:20px;
+padding-right:130px;
 
+}
+.footer-links a
+{
+margin-left:3%;
+margin-right:3%;
+text-align:center;
+padding-right:100px;
+}
 /* =============================================================
    FOOTER SECTION STYLES
  ============================================================ */
 .footer-section {
     padding:25px 50px 25px 50px;
-    color:#000;
+    color:white;
     font-size:13px;
-      background-color: #f7f7f7;
+      background-color:black;
       text-align:right;
        border-top:5px solid #9170E4;
 
