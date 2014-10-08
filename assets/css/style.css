@@ -22,7 +22,10 @@ body {
 	 cue-before: url("honey.mp3");
    
 }
-
+iframe
+{
+width:100%;
+}
 .inline
 {
 float:left;
@@ -256,7 +259,7 @@ height: 60px;
 }
 .quote {
  display:inline;
-  float:right;
+  float:left;
  margin-bottom:20px;
 }
 .rating {
