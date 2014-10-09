@@ -6233,10 +6233,12 @@ button.close {
 	}
 	.content-services
 	{
-	padding-top:1%;
-		
+	padding-top:1%;	
 	}
-	
+	.content-services a
+	{
+	color:#fff;
+	}
 	.index-header{
 	font-size:200%;
 	 font-family: sans-serif;
