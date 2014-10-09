@@ -51,6 +51,32 @@ width:200px;
     -moz-border-radius:0px;
     -webkit-border-radius:0px;
 }
+.box-container
+{
+font-size:24px;
+font-weight:bold;
+border:3px solid #3cce4e;
+color:#3cce4e;
+margin-top:2%;
+margin-left:30%;
+margin-top:2%;
+width:30%;
+text-align:center;
+padding:10px 15px;
+}
+.box-container-services
+{
+font-size:24px;
+font-weight:bold;
+border:3px solid #fff;
+color:#fff;
+margin-top:2%;
+margin-left:30%;
+margin-top:2%;
+width:30%;
+text-align:center;
+padding:10px 15px;
+}
 .content-wrapper {
     margin-top: 1px;
     min-height:100px;
