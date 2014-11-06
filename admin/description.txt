@@ -1,0 +1,1 @@
+Admin's htmls and assets goes in this folder

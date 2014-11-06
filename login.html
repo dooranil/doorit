@@ -1,156 +1,222 @@
-﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <!--[if IE]>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <![endif]-->
-    <title>Login</title>
-    <!-- BOOTSTRAP CORE STYLE  -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    <!-- FONT AWESOME STYLE  -->
-    <link href="assets/css/font-awesome.css" rel="stylesheet" />
-    <!-- CUSTOM STYLE  -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <!-- GOOGLE FONT -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
-</head>
-<body>
-    
-    <!-- LOGO HEADER END-->
-    <section class="menu-section">
-        <div class="container">
-            <div class="row ">
-			<div class="col-md-3">
-				  <a  href="index.html">
-					   <img  height="60" src="assets/img/dooritlogo.png" />
-                </a>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+        <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+        <!-- MAIN STYLE SECTION-->
+        <link rel="stylesheet" href="assets/css/login.css">
+        <link href="assets/plugins/isotope/isotope.css" rel="stylesheet" media="screen" />
+        <link href="assets/plugins/fancybox/jquery.fancybox.css" rel="stylesheet" />
+        <link href="assets/plugins/IconHoverEffects-master/css/component.css" rel="stylesheet" />
+        <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" />
+        <link href="assets/css/about-achivements.css" rel="stylesheet" />
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">    
+        <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+        <link id="mainStyle" href="assets/css/style.css" rel="stylesheet" />
+    </head>
+    <body>
 
-			</div>
-                <div class="col-md-9">
+        <section>
+            <div class="navbar navbar-static" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="fa fa-bars mobile-bars" style=""></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html" >
+                            <img src="assets/img/logo.png" alt="" /> <!-- logo here-->
+                        </a>
+                    </div>
+                    <div class="navbar-collapse collapse" data-scrollreveal="enter from the right 50px">
+                        <ul class="nav navbar-nav">
 
+                            <li><a href="#section-contact">List Your Business</a></li>
 
-                    <div class="navbar-collapse collapse ">
-									                 
-                        <ul id="menu-top" class="nav navbar-nav navbar-right">
-                            <li><a href="howitworks.html" class="menu-top-active">How It Works</a></li>
-                           
-                            <li><a href="serviceSearch.html">Request Service</a></li>
-                             <li><a href="VendorRegistration.html">List your business</a></li>
-                            <li><a href="login.html" >Login</a></li>
-                            
+                            <li><a href="login.html" class="btn btn-outlined btn-success">Login</a></li>
+
 
                         </ul>
                     </div>
+
                 </div>
+            </div>
+        </section>
 
-            </div>
-        </div>
-		<div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-              
-            </div>
-    </section>
-     <!-- MENU SECTION END-->
-    <div class="content-wrapper">
-         <div class="container">
-        <div class="row pad-botm">
-            <div class="col-md-12">
-                <h4 class="header-line">SIGN IN</h4>
-                
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3" data-scrollreveal="enter right and move 40px over 0.8s">
+                        <form class="form-signin mg-btm">
+                            <h3 class="heading-desc">
+
+                                Login to Doorit</h3>
+                            <div class="social-box">
+                                <div class="row mg-btm">
+                                    <div class="col-md-12">
+                                        <a href="#" class="btn btn-primary btn-block">
+                                            <i class="fa fa-facebook"></i>       Login with Facebook
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <a href="#" class="btn btn-danger btn-block" >
+                                            <i class="fa fa-google"></i>      Login with Google+
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
+                            <div class="main">  
+                                <label for="username">Username</label>
+                                <input type="text" id="username" class="form-control" placeholder="Username" autofocus>
+                                <label for="password">Password</label>
+                                <input type="password" id="password" class="form-control" placeholder="Password">
 
-        </div>
-             <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-12">
-               <div class="panel panel-info">
-                        <div class="panel-heading">
-                           SIGN IN
-                        </div>
-                        <div class="panel-body">
-                            <form role="form">
-                                        <div class="form-group">
-                                            <label>Username</label>
-                                            <input class="form-control" type="text" required />
-                                          
+                                Don't you have an account ? <a href="#"> Sign Up here</a>
+                                <span class="clearfix"></span>  
+                            </div>
+                            <div class="login-footer">
+                                <div class="row">
+                                    <div class="col-xs-6 col-md-6">
+                                        <div class="left-section">
+                                            <a href="">Forgot your password?</a>
+
                                         </div>
-                                 <div class="form-group">
-                                            <label>Password</label>
-                                            <input class="form-control" type="password" required />
-                                 
-                                     </div>
-                                  
-                              <a href="dashboard.html" class="btn btn-success  btn-md-width">Login</a>
-                                       
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox">Remember me</input>
+                                    </div>
+                                    <div class="col-xs-6 col-md-6 pull-right">
+                                        <button type="submit" class="btn btn-large btn-success pull-right">Login</button>
+                                    </div>
+                                </div>
 
-                                    </form>
                             </div>
-                        </div>
-                            </div>
-<div class="col-md-6 col-sm-6 col-xs-12">
-              
-                            </div>
-        </div>
-             <!--/.ROW-->
-             <div class="row">
-                 <div class="col-md-6 col-sm-6 col-xs-12">
-               
-                            </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
-               
-                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        </div>
-    </div>
-    </div>
-     <!-- CONTENT-WRAPPER SECTION END-->
-   <section class="footer-section ">
+
+
+        <!-- FOOTER SECTION-->
+
+        <footer>
+    <div class="footer" id="footer">
         <div class="container">
-           
-                <div class="col-md-index-12 social-media">
-					<center>Follow us on<center>
-                  <!-- &copy; 2014 Doorit.com |<a href="http://www.doorit.com/" target="_blank"  > Designed by : doorit.com</a>--> 
-               </div>
-			    <div class="col-md-index-12 social-media">
-					<center>
-					<img  height="40" src="assets/img/icon_fb.jpg" />
-					<img  height="40" src="assets/img/img-twt-icon.png" />
-					<img  height="40" src="assets/img/youtube-logo.jpg" />
-					<img  height="40" src="assets/img/Google-plus-icon.png" />
-					<center>
-					<br/>
-                  <!-- &copy; 2014 Doorit.com |<a href="http://www.doorit.com/" target="_blank"  > Designed by : doorit.com</a>--> 
-               </div>
-			    <div class="col-md-index-12 footer-links">
-					<center>
-					<a href="#" style="color:white">About Us</a>
-					<a href="#" style="color:white">Terms</a>
-					<a href="#" style="color:white">Privacy</a>
-					<a href="#" style="color:white">HELP/FAQ</a>
-					<a href="#" style="color:white">Contact Us</a>
-					</center>
+            <div class="row">
+            <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12 ">
+                    <h3> <img src="assets/img/logo.png" alt=""></h3>
 					
-                  <!-- &copy; 2014 Doorit.com |<a href="http://www.doorit.com/" target="_blank"  > Designed by : doorit.com</a>--> 
-               </div>
+                    <!-- <ul>
+                        <li>
+                            <div class="input-append newsletter-box text-center">
+                                <input type="text" class="full text-center" placeholder="Email ">
+                                <button class="btn  bg-gray" type="button"> Lorem ipsum <i class="fa fa-long-arrow-right"> </i> </button>
+                            </div>
+                        </li>
+                    </ul> -->
+                    <ul class="social-network social-circle">
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                    <!-- <ul class="social">
+                        <li> <a href="#"> <i class=" fa fa-facebook">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
+                    </ul> -->
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> DOORIT </h3>
+						
+                    <ul>
+                        <li> <a href="#"> About </a> </li>
+                        <li> <a href="#"> Jobs</a> </li>
+                        <li> <a href="#"> Team </a> </li>
+                      
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3>Customers </h3>
+				
+                    <ul>
+                        <li> <a href="HowItWorksCustomer.html"> How it works </a> </li>
+                        <li> <a href="#"> Location </a> </li>
+                    
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Pros </h3>
+                    <ul>
+                        <li> <a href="#">  How it works </a> </li>
+                        <li> <a href="#">Sign Up </a> </li>
+                        <li> <a href="#"> Pro Stories </a> </li>
+                      
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3>contact</h3>
+                    <ul>
+                        <li> <a href="#"> E-mail us</a> </li>
+                        <li> <a href="#"> Call (855)846-2825 </a> </li>
+                     
+                    </ul>
+                </div>
+                
+            </div>
+            <!--/.row--> 
         </div>
-    </section>
-      <!-- FOOTER SECTION END-->
-    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
-    <!-- CORE JQUERY  -->
-    <script src="assets/js/jquery-1.10.2.js"></script>
-    <!-- BOOTSTRAP SCRIPTS  -->
-    <script src="assets/js/bootstrap.js"></script>
-      <!-- CUSTOM SCRIPTS  -->
-    <script src="assets/js/custom.js"></script>
-</body>
+        <!--/.container--> 
+    </div>
+    <!--/.footer-->
+    
+   <!-- <div class="footer-bottom">
+        <div class="container">
+            <p class="pull-left"> Copyright © Doorit 2014. All right reserved. </p>
+            <div class="pull-right">
+                <ul class="nav nav-pills payments">
+                  <li><i class="fa fa-cc-visa"></i></li>
+                    <li><i class="fa fa-cc-mastercard"></i></li>
+                    <li><i class="fa fa-cc-amex"></i></li>
+                    <li><i class="fa fa-cc-paypal"></i></li>
+                </ul> 
+            </div>
+            <p class="pull-left develop"> Design by Pasindu Danthaka Sri</p>
+        </div>
+    </div>-->
+    <!--/.footer-bottom--> 
+</footer>
+        <!-- END FOOTER SECTION-->
+
+
+
+
+        <script src="assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/scrollReveal.js"></script>
+        <script>
+            window.scrollReveal = new scrollReveal(); //please put this script here to show animation at the time of scroll
+        </script>
+        <script src="assets/js/jquery.easing.1.3.js"></script>
+        <script src="assets/plugins/bootstrap/bootstrap.min.js"></script>
+        <script src="assets/plugins/isotope/jquery.isotope.min.js"></script>
+        <script src="assets/plugins/fancybox/jquery.fancybox.pack.js"></script>
+        <script src="assets/js/jquery.localscroll-1.2.7-min.js"></script>
+        <script src="assets/js/jquery.appear.js"></script>
+        <script src="assets/scripts/main.js"></script>
+        <script src="assets/scripts/login.js"></script>
+
+    </body>
 </html>

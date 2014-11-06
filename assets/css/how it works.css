@@ -1,0 +1,124 @@
+
+/*========================================================
+  Author :Gayal Saranga
+    License: SolutionTechs 
+==========================================================*/
+
+/*=======================
+Style Sheet Account-type
+=======================*/
+
+#right
+{
+    max-width: 400px; 
+    max-height: 400px;
+    /*display:block;*/
+    background-color: #0000;
+    /*-moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+-webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);*/
+    float: right;
+    margin-top:50px;
+    margin-bottom: 10px;
+    margin-right:100px;
+    /* margin-left: 200px;*/
+    /*-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;*/
+    background-opacity:0.5;
+
+}
+#left
+{
+    max-width: 400px; 
+    max-height: 400px;
+    /*display:block;*/
+    background-color: #0000000;
+    /*-moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+-webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);*/
+    float:left;
+    margin-top:50px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    /*-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;*/
+    background-opacity:0.5;
+}
+#image-left{
+
+    margin-left: 100px;
+    float:left;
+
+}
+#image-right{
+    margin-right:100px;
+    float: right;
+}
+.row{
+
+    margin-top: 60px;
+    margin-bottom: 80px
+
+}
+
+.heading {
+    color:#334189;
+}
+
+.heading-text{
+    color:#334189;
+}
+.btn-primary
+{
+    background-color: #2f88f0;
+    border-color: #2f88f0;
+}
+.text-bold
+{
+    color: black;
+}
+.background
+{
+    /*background-image: url("../img/register.jpg");*/
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height:650px;
+
+}
+.section {
+    margin:0;
+    padding: 20px  0 30px ;
+    opacity: 0.5;
+}
+.wrapper wrapper-title{
+
+}
+h3{
+    color: #106bd5;
+    font-weight: bolder;
+    /*text-decoration:b;*/
+    font-size: 35px;
+
+}
+h2{
+    color: #434343;
+    font-weight: bolder;
+    /*text-decoration:b;*/
+    font-size: 38px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+
+
+}
+.img-circle{
+    width: 300px;
+    height: 300px;
+}
+/*===========================
+End Style Sheet Account-type
+===========================*/

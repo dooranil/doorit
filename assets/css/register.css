@@ -1,0 +1,39 @@
+
+.head-main {
+   font-size: 70px !important;
+font-weight: 900!important;
+ color:#fff;
+}
+.head-sub-main {
+    font-size:40px !important;
+    font-weight:600!important;
+    padding:5px 20px 30px 20px;
+    color: #27C00A;
+}
+.head-last {
+  
+    padding:5px 20px 200px 20px;
+    color:#fff;
+}
+#home {
+    background-image: url("../img/register.jpg");
+background-repeat: no-repeat;
+background-position: center 0;
+background-size: cover;
+background-attachment: fixed;
+min-height:650px;
+}
+.div-trans {
+    padding:5px;
+    background-color: rgba(0, 255, 41, 0.25);
+min-height: 350px;
+margin-top: 200px;
+color: #fff;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+margin-bottom:30px;
+}
+    .div-trans .form-control {
+        background-color: rgba(255, 255, 255, 0);
+    }

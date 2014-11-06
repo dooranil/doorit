@@ -1,0 +1,43 @@
+
+/*========================================================
+  Author :Pasindu Danthaka Sri
+    License: SolutionTechs 
+==========================================================*/
+
+/*=======================
+Style Sheet Account-type
+=======================*/
+.account {
+    border:1px solid #f2f2f2;
+    margin:5px;
+    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    background-color: white;
+    padding: 3px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    max-width: 235px;
+    max-height: 155px
+}
+.btn.btn-primary.btn-lg
+{
+    border-color: transparent #428bca transparent transparent;
+    border-color: rgba(255,255,255,0) #428bca rgba(255,255,255,0) rgba(255,255,255,0);
+    width: auto;
+    margin-bottom: 10px;
+}
+.footer-bottom {
+    background: #0B0435;
+    border-top: 1px solid #4332A2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin-top: 180px;
+}
+
+
+/*===========================
+End Style Sheet Account-type
+===========================*/

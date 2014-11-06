@@ -1,0 +1,14 @@
+.fa-edit,.fa-info,.fa-clock-o,.fa-credit-card
+{
+    color:#eeb111;
+}
+.btn-outlined.btn-success {
+    background: none;
+    border: 3px solid #5cb85c;
+    color: #5cb85c;
+}
+.btn-outlined.btn-success:hover,
+.btn-outlined.btn-success:active {
+    color: #FFF;
+    background: #47a447;
+}

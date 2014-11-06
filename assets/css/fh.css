@@ -1,0 +1,435 @@
+
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    Developed by Pasindu Danthaka Sri
+   
+    ========================================================  */
+
+
+/* ==== Google font ==== */
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+/* === fontawesome === */
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+/* ==== animate styles ==== */
+@import url('../plugins/animate/animate.css');
+/*==========================================================================
+  General
+  ========================================================================== */
+body {
+    color:#000;
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-weight: 300;
+    text-shadow: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Varela Round', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    color:rgba(1, 82, 255, 0.54);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-style: normal;
+    margin:30px 0 40px 0;
+}
+h1 { font-size: 50px; line-height: 30px; }
+h2 { font-size: 40px; }
+h3 { font-size: 24px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+.txt-uppercase { text-transform: uppercase; }
+
+
+a:hover {
+    text-decoration: none;
+}
+
+:focus {
+    outline: none;
+}
+
+.color-white.txt-shadow {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.t-uppercase {
+    text-transform: uppercase;
+}
+
+/*==========================================================================
+ Adjustments 
+ ========================================================================== */
+.row {
+    z-index: 9999;
+}
+
+.content,.container {
+    overflow: hidden;
+}
+
+
+/*===========================
+  --- Header & menu ----
+=========================== */
+.navbar {
+    line-height: 60px;
+    height: 60px;
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom:0;
+    background-color: #000;
+}
+
+.navbar .navbar-collapse {
+    margin-bottom: 0;
+    padding-bottom:0;
+}
+
+.nav li {
+    height: 100%;
+    line-height: 100%;
+    margin-bottom: 0;
+    padding-bottom:0;
+}
+
+.nav>li>a {
+    display: table-cell;
+    height: 100%;
+    line-height: 100%;
+    vertical-align: middle;
+    color: #fff;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.nav>li>a:hover {
+    color: #37AFFF;
+    background: none;
+}
+
+.navbar-nav {
+    float: right;
+    margin-bottom: 0;
+    padding-bottom:0;   
+}
+
+.navbar .navbar-nav > .active > a {
+    color: #fff;
+}
+.navbar .navbar-nav > .active > a {
+    padding-bottom: 22px;
+}
+
+h1 a.navbar-brand {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 900;
+    text-shadow: none;
+}
+
+.navbar-brand {
+    padding: 0;
+    display: table-cell;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+.navbar-brand img {
+    vertical-align: middle;
+}
+
+.navbar-toggle {
+    padding: 0;
+    margin: 0;
+    width: 80px;
+}
+.navbar-toggle.col-text
+{
+    color: #f2f2f2;
+}
+.navbar-collapse.in {
+    margin-top: -5px !important;
+}
+
+
+
+/*===========================
+  --- footer ----
+=========================== */
+
+.full {
+    width: 100%;    
+}
+.gap {
+    height: 30px;
+    width: 100%;
+    clear: both;
+    display: block;
+}
+.footer {
+    background: #100649;
+    height: auto;
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+    border-bottom: 2px solid #240BB2;
+    border-top: 1px solid #240BB2;
+}
+.footer p {
+    margin: 0;
+}
+.footer img {
+    max-width: 100%;
+}
+.footer h3 {
+    border-bottom: 1px solid #BAC1C8;
+    color: #54697E;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    padding: 40px 0 10px;
+    text-transform: uppercase;
+}
+.footer ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    color: #7F8C8D;
+}
+.footer ul li a {
+    padding: 0 0 5px 0;
+   /* display: block;*/
+}
+.footer a {
+    color: #78828D
+}
+.supportLi h4 {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: normal;
+    margin-bottom: 0 !important;
+    padding-bottom: 0;
+}
+.newsletter-box input#appendedInputButton {
+    background: #FFFFFF;
+    display: inline-block;
+    float: left;
+    height: 30px;
+    clear: both;
+    width: 100%;
+}
+.newsletter-box .btn {
+    border: medium none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    height: 40px;
+    padding: 0;
+    width: 100%;
+    color: #fff;
+}
+.newsletter-box {
+    overflow: hidden;
+}
+.bg-gray {
+    background-image: -moz-linear-gradient(center bottom, #2005B9 0%, #2400ED 100%);
+    box-shadow: 0 1px 0 #B4B3B3;
+}
+.social li {
+    background: none repeat scroll 0 0 #B5B5B5;
+    border: 2px solid #B5B5B5;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 8px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 36px;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+.social li:hover {
+    transform: scale(1.15) rotate(360deg);
+    -webkit-transform: scale(1.1) rotate(360deg);
+    -moz-transform: scale(1.1) rotate(360deg);
+    -ms-transform: scale(1.1) rotate(360deg);
+    -o-transform: scale(1.1) rotate(360deg);
+}
+.social li a {
+    color: #100649;
+}
+.social li:hover {
+    border: 2px solid #2c3e50;
+    background: #2c3e50;
+}
+.social li a i {
+    font-size: 16px;
+    margin: 0 0 0 5px;
+    color: #100649 !important;
+}
+.footer-bottom {
+    background: #0B0435;
+    border-top: 1px solid #4332A2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-bottom p.pull-left {
+    padding-top: 6px;
+}
+.payments {
+    font-size: 1.5em;   
+}
+.develop
+{
+    padding-top: 6px;
+    font-size: 8px;
+}
+/* footer social icons */
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left:0 !important;
+    padding: 0;
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+/*===========================
+  --- Social Components ----
+=========================== */
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+    background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+    background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+    background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+    background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+    background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+    background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i, 
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+    color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+    color:#44BCDD;
+}
+
+.social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 50px;
+    height: 50px;
+    font-size:20px;
+}
+.social-circle li i {
+    margin:0;
+    line-height:50px;
+    text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+
+/*===========================
+  --- OTHER  CSS ----
+=========================== */
+
+
+
+/* --- icon box hover --- */
+.hi-icon-effect-5 .hi-icon {
+    color: #35A49C;
+    box-shadow: 0 0 0 4px #37AFFF;
+}
+.no-touch .hi-icon-effect-5 .hi-icon:hover {
+    background: #35A49C;
+    box-shadow: 0 0 0 8px  #37AFFF;
+}
+
+
+/* portfolio */
+.portfolio-item .portfolio-desc {
+    background: rgb(153, 206, 255);
+}
+
+/* top bars */
+.mobile-bars {
+    color: white;
+}
+
+/* contact */
+.validation {
+    color:#ff0000;
+}
+
+/* footer */
+.social-circle li a {
+    background:#358AF7;
+}
+/* scrollup link */
+a.scrollup{
+    background:#358AF7;
+}
+/* Services icon */
+.no-touch .hi-icon-effect-1a .hi-icon {
+    background-color:#CACACA;
+}
